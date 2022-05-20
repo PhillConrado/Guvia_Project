@@ -1,3 +1,8 @@
+body {
+  background: #f4f4f4;
+}
+
+
 .main_color {
   background-color: #3576D6;
    /* #759edd; */
@@ -30,8 +35,9 @@
   max-height: 25rem;
 }
 
-body {
-  background: #f4f4f4;
+.sobre_sp {
+  width: 70%;
+  margin: auto;
 }
 
 .banner {
@@ -143,7 +149,6 @@ body {
   right: 0;
   top: 1rem;
   bottom: inherit;
-  left: inherit;
   margin-right: 1rem;
 }
 .overflow {
