@@ -46,6 +46,10 @@ body {
   background: linear-gradient(to right, #759edd, #6c757d, #343a40);
 }
 
+.card-img-top {
+  height: 15rem;
+}
+
 .footer-blue {
   padding: 1.2rem 0;
   color: #fff;
