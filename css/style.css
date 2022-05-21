@@ -34,11 +34,32 @@ body {
   width: 100%;
   max-height: 25rem;
 }
+.testee {
+width: 30%;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 10px;
+font-size: 16px;
+background-color: white;
+background-image: url('https://www.w3schools.com/howto/searchicon.png');
+background-position: 0%;
+background-position-x: 98%;
+
+background-repeat: no-repeat;
+padding: 0.5rem;
+/* -webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out; */
+}
+
+/* .testee:focus {
+width: 100%;
+} */
 
 .sobre_sp {
   width: 70%;
   margin: auto;
 }
+
 
 .banner {
   background: #759edd;
