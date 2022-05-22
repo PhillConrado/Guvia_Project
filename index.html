@@ -50,13 +50,13 @@
                             <li><a class="dropdown-item p-2" href="gastronomia.html">Gastronomia</a></li>
                             <li><a class="dropdown-item p-2" href="#">História</a></li>
                             <li><a class="dropdown-item p-2" href="#">Cultura</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Parques</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Vida Noturna</a></li>
+                            <li><a class="dropdown-item p-2" href="parques.html">Parques</a></li>
+                            <li><a class="dropdown-item p-2" href="vidanoturna.html">Vida Noturna</a></li>
                             <li><a class="dropdown-item p-2" href="#">Entretenimento</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Alugue um carro</a>
+                        <a class="nav-link" href="aluguel_veiculos.html">Alugue um carro</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Dicas úteis</a>
@@ -69,17 +69,23 @@
 
     <!-- inicio do carrossel -->
     <header>
-        <!-- buttondown carrosel -->
-        <div id="carouselExampleCaptions" class=" testeee carousel slide" data-bs-ride="carousel">
+        <!-- buttondown carrossel -->
+        <div id="carrosselPrincipal" class="carousel slide" data-bs-ride="carousel">
+
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
+
             <div class="carousel-inner">
+                <form>
+                    <input class="testee" type="text" name="search" aria-label="Pesquisar Locais"
+                        placeholder="Que lugar quer conhecer hoje?">
+                </form>
                 <div class="carousel-item active">
                     <img src="./img/pedios_sp.jpg">
                     <div class="carousel-caption">
@@ -104,12 +110,12 @@
             </div>
 
             <!-- botoes laterais -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosselPrincipal"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosselPrincipal"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -342,9 +348,7 @@
         </div>
     </div>
 
-    <form>
-        <input class="testee" type="text" name="search" aria-label="Pesquisar Locais" placeholder="Que lugar quer conhecer hoje?">
-    </form>
+
 
     <div class="footer-blue">
         <footer>
