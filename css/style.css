@@ -1,5 +1,6 @@
-body {
-  background: #f4f4f4;
+body{
+  margin-top:20px;
+  background-color:#e9ebee;
 }
 
 
@@ -34,6 +35,8 @@ body {
   width: 100%;
   max-height: 25rem;
 }
+
+/* teste de barra de pesquisa no site */
 .testee {
 width: 100%;
 box-sizing: border-box;
@@ -74,8 +77,6 @@ width: 100%;
   height: 15rem;
 }
 
-
-/*news*/
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -106,24 +107,23 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 } 
-/* end news */
 
-/* teste */
-/* TITRE */
 h1 {
   margin-top: 0;
   font-size: 3rem;
   display: inline-block;
 }
+
 h1 div {
   position: relative;
   float: left;
 }
+
 h1 div:first-child {
   color: #3576D6;
   margin-right: 1rem;
 }
-/* PROFIL */
+
 .blog .carousel-indicators {
 	left: 0;
 	top: auto;
@@ -131,7 +131,6 @@ h1 div:first-child {
 
 }
 
-/* The colour of the indicators */
 .blog .carousel-indicators li {
     background: #a3a3a3;
     border-radius: 50%;
@@ -275,12 +274,6 @@ margin-bottom:10px;
   color: #3576D6;
   background: #f7f5ec;
 }
-@media only screen and (max-width: 990px) {
-  .our-team {
-    margin-bottom: 10px;
-  }
-}
-/* end teste */
 
 /* seção forum */
 .secao_perguntas {
@@ -323,21 +316,8 @@ margin-bottom:10px;
   opacity:0.8;
 }
 
-@media (max-width:767px) {
-  .footer-blue .item:not(.social) {
-    text-align:center;
-    padding-bottom:20px;
-  }
-}
-
 .footer-blue .item.text {
   margin-bottom:36px;
-}
-
-@media (max-width:767px) {
-  .footer-blue .item.text {
-    margin-bottom:0;
-  }
 }
 
 .footer-blue .item.text p {
@@ -347,13 +327,6 @@ margin-bottom:10px;
 
 .footer-blue .item.social {
   text-align:center;
-}
-
-@media (max-width:991px) {
-  .footer-blue .item.social {
-    text-align:center;
-    margin-top:20px;
-  }
 }
 
 .footer-blue .item.social > a {
@@ -409,12 +382,6 @@ margin-bottom:10px;
   transform: scale(1.1);
 }
 
-/* comments */
-body{
-  margin-top:20px;
-  background-color:#e9ebee;
-}
-
 .be-comment-block {
   margin-bottom: 50px !important;
   border: 1px solid #edeff2;
@@ -462,17 +429,8 @@ body{
   color: #383b43;
 }
 
-.be-comment-content span {
-  display: inline-block;
-  width: 49%;
-  margin-bottom: 15px;
-}
-
 .be-comment-time {
   text-align: right;
-}
-
-.be-comment-time {
   font-size: 11px;
   color: #b4b7c1;
 }
@@ -525,4 +483,27 @@ body{
 .form-group textarea.form-input {
   height: 150px;
 }
-/* end comments */
+
+@media (max-width:991px) {
+  .footer-blue .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .our-team {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-blue .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+
+  .footer-blue .item.text {
+    margin-bottom:0;
+  }
+}
