@@ -2,11 +2,9 @@
 <html lang="pt-br">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="googlebot" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js">
@@ -18,72 +16,20 @@
     <title>Guvia - Home</title>
     <link rel="sortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="sortcut icon" href="./img/minilogo.png" type="image/png" />
+
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
 </head>
+
 
 <body>
 
-    <!-- Inicio do menu -->
-    <nav class="navbar navbar-expand-lg fixed-top main_color p-0">
-        <div class="container">
-
-            <a class="navbar-brand guvia" href="index.html"><img class="logo_menu" src="./img/minilogo.png"
-                    alt="">Guvia</a>
-            <!-- botão tela menor -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-dark navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hospedagem.html">Hospedagem</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            O que fazer
-                        </a>
-                        <ul class="dropdown-menu main_color" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item p-2" href="gastronomia.html">Gastronomia</a></li>
-                            <li><a class="dropdown-item p-2" href="#">História</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Cultura</a></li>
-                            <li><a class="dropdown-item p-2" href="parques.html">Parques</a></li>
-                            <li><a class="dropdown-item p-2" href="vidanoturna.html">Vida Noturna</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Entretenimento</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Guviers
-                        </a>
-                        <ul class="dropdown-menu main_color" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item p-2" href="#">Cadastre-se no Fórum</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Postagens recentes</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Promoções</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Seja um Guvier</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aluguel_veiculos.html">Alugue um carro</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dicas úteis</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- fim do menu -->
+    <!-- Menu -->
+    <header-component></header-component>
 
     <!-- inicio do carrossel -->
     <header>
-        <!-- buttondown carrossel -->
         <div id="carrosselPrincipal" class="carousel slide" data-bs-ride="carousel">
-
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -92,14 +38,9 @@
                 <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
-
             <div class="carousel-inner">
-                <form>
-                    <input class="testee" type="text" name="search" aria-label="Pesquisar Locais"
-                        placeholder="Que lugar quer conhecer hoje?">
-                </form>
                 <div class="carousel-item active">
-                    <img src="./img/pedios_sp.jpg">
+                    <img src="./img/predios_sp.jpg" alt="">
                     <div class="carousel-caption">
                         <h5>Centro da cidade</h5>
                         <p>São Paulo - Brasil.</p>
@@ -108,6 +49,7 @@
                 <div class="carousel-item">
                     <img src="./img/vilabuarque.jpg" alt="">
                     <div class="carousel-caption">
+
                         <h5>Vila Buarque</h5>
                         <p>São Paulo, SP - Brazil.</p>
                     </div>
@@ -119,8 +61,8 @@
                         <p>São Paulo - Brasil.</p>
                     </div>
                 </div>
-            </div>
 
+            </div>
             <!-- botoes laterais -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carrosselPrincipal"
                 data-bs-slide="prev">
@@ -132,13 +74,14 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
-    </header>
 
+        </div>
+
+    </header>
 
     <!--Container-->
     <div class="container">
-        <div class="sobre_sp text-center pt-3 mb-2">
+        <div class="sobre_sp text-center pt-4">
             <h1>Conheça São Paulo, SP - Brasil</h1>
             <p>A culinária e a arte de São Paulo, a maior cidade da América do Sul, é tão multinacional quanto sua
                 diversificada população de mais de 11 milhões de habitantes. Com os restaurantes do bairro Jardins
@@ -147,10 +90,15 @@
                 diferentes e animados bairros, além de ótimas compras.</p>
         </div>
 
-
+        <form class="pesquisa_locais">
+            <h2>Faça uma pesquisa rápida</h2>
+            <input class="testee" type="text" name="search" aria-label="Pesquisar Locais em São Paulo"
+                placeholder="Que lugar de São Paulo quer conhecer hoje?">
+        </form>
 
         <!--Start code-->
         <div class="row">
+            <h2>Navegue pelas seções mais acessadas:</h2>
             <div class="col-12 pb-5">
                 <section class="row">
                     <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
@@ -236,7 +184,7 @@
                                         <div class="position-relative">
                                             <div class="ratio_left-cover-1 image-wrapper">
                                                 <a href="#">
-                                                    <img class="img-fluid w-100" src="./img/carros.jpg"
+                                                    <img class="img-fluid w-100" src="./img/carros.webp"
                                                         alt="foto aerea de carros">
                                                 </a>
                                             </div>
@@ -360,43 +308,8 @@
         </div>
     </div>
 
-
-
-    <div class="footer-blue">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 item text">
-                        <h3>Guvia</h3>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula
-                            rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum
-                            vel in justo.</p>
-                    </div>
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
-                                class="icon ion-social-twitter"></i></a><a href="#"><i
-                                class="icon ion-social-snapchat"></i></a><a href="#"><i
-                                class="icon ion-social-instagram"></i></a></div>
-                </div>
-                <p class="copyright">Guvia © 2022</p>
-            </div>
-        </footer>
-    </div>
+    <!-- footer -->
+    <footer-component></footer-component>
 
 </body>
 

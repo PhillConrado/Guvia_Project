@@ -17,51 +17,15 @@
      <title>Guvia - Hospedagem</title>
     <link rel="sortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="sortcut icon" href="./img/minilogo.png" type="image/png" />
+
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
 </head>
 
 <body>
 
-    <!-- Inicio do menu -->
-    <nav class="navbar navbar-expand-lg fixed-top main_color p-0">
-        <div class="container">
-            <a class="navbar-brand guvia" href="index.html"><img class="logo_menu" src="./img/minilogo.png" alt="">Guvia</a>
-            <!-- botão tela menor -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-dark navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hospedagem.html">Hospedagem</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            O que fazer
-                        </a>
-                        <ul class="dropdown-menu main_color" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item p-2" href="gastronomia.html">Gastronomia</a></li>
-                            <li><a class="dropdown-item p-2" href="#">História</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Cultura</a></li>
-                            <li><a class="dropdown-item p-2" href="parques.html">Parques</a></li>
-                            <li><a class="dropdown-item p-2" href="vidanoturna.html">Vida Noturna</a></li>
-                            <li><a class="dropdown-item p-2" href="#">Entretenimento</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aluguel_veiculos.html">Alugue um carro</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dicas úteis</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Menu -->
+    <header-component></header-component>
 
     <div class="container-fluid">
         <div class="px-lg-5">
@@ -245,43 +209,8 @@
             </div>
         </div>
 
-        <div class="footer-blue">
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-3 item">
-                            <h3>Services</h3>
-                            <ul>
-                                <li><a href="#">Web design</a></li>
-                                <li><a href="#">Development</a></li>
-                                <li><a href="#">Hosting</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 col-md-3 item">
-                            <h3>About</h3>
-                            <ul>
-                                <li><a href="#">Company</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 item text">
-                            <h3>Guvia</h3>
-                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut
-                                vehicula
-                                rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar
-                                dictum
-                                vel in justo.</p>
-                        </div>
-                        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
-                                href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
-                                    class="icon ion-social-snapchat"></i></a><a href="#"><i
-                                    class="icon ion-social-instagram"></i></a></div>
-                    </div>
-                    <p class="copyright">Guvia © 2022</p>
-                </div>
-            </footer>
-        </div>
+    <!-- footer -->
+    <footer-component></footer-component>
 
 </body>
 
