@@ -11,10 +11,10 @@ O projeto Traveller será um portal que irá contemplar informações sobre viag
 
 <!-- ![](./imagens/home_guvia.png) -->
 
-API utilizada: 
+## API utilizada: 
 Utilizamos a API do google maps para mostrar a localização dos locais em São Paulo.
 
-Recursos de acessibilidade: <br>
+## Recursos de acessibilidade: <br>
 visually-hidden (versão 5 bootstrap) ou sr-only (versão 4 bootstrap): <br>
 recurso via bootstrap que oculta visualmente um elemento enquanto ainda permite que ele seja exposto a tecnologias assistivas. <br>
 alt: <br>
