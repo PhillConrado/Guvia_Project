@@ -14,13 +14,13 @@ O projeto Traveller será um portal que irá contemplar informações sobre viag
 API utilizada: 
 Utilizamos a API do google maps para mostrar a localização dos locais em São Paulo.
 
-Recursos de acessibilidade:
-visually-hidden (versão 5 bootstrap) ou sr-only (versão 4 bootstrap)
-recurso via bootstrap que oculta visualmente um elemento enquanto ainda permite que ele seja exposto a tecnologias assistivas;
-alt
-atributo utilizado nas tags img para descrever uma imagem, ele é lido em voz alta por leitores de tela, ajudando os usuários com deficiência visual a navegar na web.
-Pular para conteudo
-Opção no incio do site para que aqueles que utilizam leitores de tela sem o uso de mouse possam pular para o conteudo principal sem precisar passar por todos os itens do menu.
+Recursos de acessibilidade: <br>
+visually-hidden (versão 5 bootstrap) ou sr-only (versão 4 bootstrap): <br>
+recurso via bootstrap que oculta visualmente um elemento enquanto ainda permite que ele seja exposto a tecnologias assistivas. <br>
+alt: <br>
+atributo utilizado nas tags img para descrever uma imagem, ele é lido em voz alta por leitores de tela, ajudando os usuários com deficiência visual a navegar na web. <br>
+Pular para conteudo: <br>
+Opção no incio do site para que aqueles que utilizam leitores de tela sem o uso de mouse possam pular para o conteudo principal sem precisar passar por todos os itens do menu. 
 
 
 ## Visualização
