@@ -53,7 +53,7 @@ h1 div:first-child {
 /* Inicio carrossel */
 .carousel-item img {
   width: 100%;
-  max-height: 25rem;
+  height: 23rem;
 }
 
 
