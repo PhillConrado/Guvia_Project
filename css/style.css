@@ -49,6 +49,49 @@ h1 div:first-child {
   color: #fff;
 }
 
+/* modal login e registro */
+.logofacebook {
+  width: 30px;
+  height: 30px;
+ }
+ 
+ 
+ #register-form {
+     padding: 1rem 1rem 0 1rem;
+     display: grid;
+     column-gap: 2rem;
+     grid-template-columns: repeat(2, 1fr);
+     grid-auto-rows: 4.5rem;
+ }
+ 
+ .email {
+     /* display: grid; */
+     grid-column-start: 1;
+     grid-column-end: 3;
+     /* grid-row-start: 1; */
+     /* grid-row-end: 3; */
+ }
+ 
+ .label_cadast {
+     margin-bottom: 1.2rem;
+     display: grid;
+ 
+ }
+ 
+ .termos {
+     margin: auto;
+     grid-column-start: 1;
+     grid-column-end: 3;
+ }
+ 
+ .registre {
+     display: grid;
+ }
+ 
+ label {
+     margin-bottom: 0.2rem;
+ }
+
 
 /* Inicio carrossel */
 .carousel-item img {
