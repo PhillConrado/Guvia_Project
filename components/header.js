@@ -56,6 +56,9 @@ class Header extends HTMLElement {
                  <li class="nav-item">
                      <a class="nav-link" href="#">Dicas úteis</a>
                  </li>
+                 <li class="nav-item bg-info bg-opacity-10 border-info border-start-0 rounded">
+                     <a class="nav-link" href="#">Faça seu login</a>
+                 </li>
              </ul>
          </div>
      </div>
