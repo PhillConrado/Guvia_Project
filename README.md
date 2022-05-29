@@ -20,7 +20,9 @@ recurso via bootstrap que oculta visualmente um elemento enquanto ainda permite 
 alt: <br>
 atributo utilizado nas tags img para descrever uma imagem, ele é lido em voz alta por leitores de tela, ajudando os usuários com deficiência visual a navegar na web. <br>
 Pular para conteudo: <br>
-Opção no incio do site para que aqueles que utilizam leitores de tela sem o uso de mouse possam pular para o conteudo principal sem precisar passar por todos os itens do menu. 
+Opção no incio do site para que aqueles que utilizam leitores de tela sem o uso de mouse possam pular para o conteudo principal sem precisar passar por todos os itens do menu. <br>
+VLibras: <br>
+A suite VLibras é um conjunto de ferramentas gratuitas e de código aberto que traduz conteúdos digitais (texto, áudio e vídeo) em Português para Libras, tornando computadores, celulares e plataformas Web mais acessíveis para as pessoas surdas. Saiba mais: https://www.gov.br/governodigital/pt-br/vlibras.
 
 
 ## Visualização
