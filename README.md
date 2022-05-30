@@ -12,7 +12,7 @@ O projeto Traveller será um portal que irá contemplar informações sobre viag
 <!-- ![](./imagens/home_guvia.png) -->
 
 ## API utilizada: 
-Utilizamos a API do google maps para mostrar a localização dos locais em São Paulo.
+Utilizamos a API do google maps para mostrar a localização dos locais em São Paulo e facilitar as possibilidades de roteiros para os viajantes.
 
 ## Recursos de acessibilidade: <br>
 visually-hidden (versão 5 bootstrap) ou sr-only (versão 4 bootstrap): <br>
