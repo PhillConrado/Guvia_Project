@@ -44,6 +44,7 @@
 
 }
 
+/* carrossel de carros */
 .gallery {
   width: 100%;
 }
@@ -63,7 +64,7 @@
   position: absolute;
   transition: width 0.7s, left 0.9s, right 0.9s, line-height 1s;
   /* transition: linear 1s; */
-  width: 150px;
+  width: 8rem;
   z-index: 0;
 }
 
@@ -78,7 +79,7 @@
 .gallery-item-4 {
   /* height: 200px; */
   opacity: 0.5;
-  width: 200px;
+  width: 12rem;
   z-index: 1;
 }
 
@@ -88,12 +89,12 @@
 }
 
 .gallery-item-3 {
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  /* box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1); */
   /* height: 300px; */
   opacity: 1;
   left: 50%;
   transform: translateX(-50%);
-  width: 300px;
+  width: 17rem;
   z-index: 2;
 }
 
@@ -200,13 +201,20 @@
 
 .gallery-nav li.gallery-item-selected {
   background: #555;
-} */
+}  */
 
 
 /* ]teste banner promo */
 .videoh {
   height: 250px;
 }
+
+/* container informações (localização e frota) */
+.cont_informa {
+    display: grid;
+}
+
+
 
 @media (max-width:991px) {
   .teste {
@@ -222,6 +230,21 @@
       width: 80%;
       font-size: 1.1rem;
   }
+
+  .gallery-item {
+    width: 10%;
+  }
+
+  .gallery-item-2,
+.gallery-item-4 {
+  width: 16%;
+}
+
+.gallery-item-3 {
+  width: 22%;
+}
+
+
 
 }
 

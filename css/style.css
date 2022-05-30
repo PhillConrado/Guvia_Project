@@ -75,7 +75,10 @@ h1 div:first-child {
  .label_cadast {
      margin-bottom: 1.2rem;
      display: grid;
- 
+ }
+
+ .label_cadast label {
+     margin-bottom: 0.2rem;
  }
  
  .termos {
@@ -88,10 +91,11 @@ h1 div:first-child {
      display: grid;
  }
  
- label {
-     margin-bottom: 0.2rem;
- }
-
+ a:not([href]):not([tabindex]) {
+  color: #007bff;
+  cursor: pointer;
+}
+ 
 
 /* Inicio carrossel */
 .carousel-item img {
